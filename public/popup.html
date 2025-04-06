@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session Saver</title>
+    <link rel="stylesheet" href="../style/popup.css" />
+</head>
+<body>
+    <div id="container" class="container">
+        <h1>Session Saver</h1>
+        <input id="sessionName" type="text" placeholder="Enter session name" />
+        <button id="save-session">Save Session</button>
+        <button id="restore-session">Restore Session</button>
+        <div id="status"></div>
+        <div id="saved-sessions">
+            <h2>Saved Sessions</h2>
+            <ul id="session-list"></ul>
+        </div>
+    </div>
+    <script type="module" src="../dist/popup.js"></script>
+</body>
+</html>

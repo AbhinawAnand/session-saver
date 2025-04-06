@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "A Chrome extension to save and restore browser tab sessions",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+"scripts": {
+  "build": "tsc"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/chrome": "^0.0.313",
     "typescript": "^5.8.3"
   }
 }

@@ -134,3 +134,13 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Chrome Extension specific
+*.crx
+*.pem
+
+# VS Code workspace settings
+.vscode/
+
+# Build output
+dist/
